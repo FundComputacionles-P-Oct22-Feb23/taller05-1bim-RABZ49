@@ -1,0 +1,35 @@
+1.Inicio
+2.edad,i[0-n]
+3.agua,d[0-n]
+4.mesAgua,d[0-n]
+5.telefono,d[0-n]
+6.mesTelefono,d[0-n]
+7.totalAgua,d[0-n]
+8.totalTelefono,d[0-n]
+9.<<"ingrese su edad:"
+10.>>edad
+11.<<"ingrese el costo de cada litro de agua:"
+12.>>agua
+13.<<"ingrese la cantidad de agua consumida en el mes:"
+14.>>mesAgua
+15.<<"ingrese el costo de costo de cada minuto:"
+16.>>telefono
+17.<<"ingrese el numero de minutos consumidos en el mes:"
+18.>>mesTelefono
+19.totalAgua<-- agua * mesAgua
+20.totalTelefono<-- mesTelefono * telefono
+21.si edad < 20 entonces 
+22.		totalAgua<-- (totalAgua * 0.20) - totalAgua * -1
+23.		<<"El valor a cancelar con descuento aplicado es de:" + totalAgua
+24.De lo contrario
+26.		si edad > 20 entonces
+26.		<<"El valor a cancelar es de:" + totalAgua
+27.FinSi
+28.si edad < 20 entonces 
+29.		totalTelefono<-- (totalTelefono * 0.20) - totalTelefono * -1
+30.		<<"El valor a cancelar con descuento aplicado es de:" + totalTelefono
+31.De lo contrario
+	si edad > 20 entonces
+	<<"El valor a cancelar es de:" + totalTelefono
+FinSi
+Fin

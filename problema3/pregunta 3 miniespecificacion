@@ -1,0 +1,16 @@
+1.Inicio
+2.centigrados,d[0-n]
+3.farenheit,d[0-n]
+4.kelvin,d[0-n]
+5.solucion,d[0-n]
+6.<<"Ingrese la temperatura actual en grados centígrados:"
+7.>>centigrados
+8.solucion<-- (centigrados * 9) / 5 + 32
+9.		si solucion <= 100 entonces
+10.		solucion<-- ((solucion - 32) * 5) / 9 + 273.15
+11.		<<"La temperatura actual en grados Kelvin es de:"+ solucion
+12.De lo contrario 
+13.		si solucion > 100 entonces
+14.		<<"La temperatura actual en grados Farenheit es de:"+ solucion
+15.FinSi
+16.Fin

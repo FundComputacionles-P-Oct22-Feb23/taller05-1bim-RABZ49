@@ -1,0 +1,20 @@
+1.Inicio
+2.costoK,d[0-n]
+3.numeroK,d[0-n]
+4.edad,i[o-n]
+5.costoPlanilla,d[0-n]
+6.<<"ingrese el costo kw/h:"
+7.>>costok
+8.<<"ingrese el número de kw consumidos en el mes:"
+9.>>numerok
+10.<<"ingrese su edad:"
+11.>>edad
+12.costoPlanilla<-- costok * numerok
+13.si edad > 65 entonces
+14.		costoPlanilla<--(costoPlanilla*o.10) - costoPlanilla * -1
+15.	<<"El valor a cancelar con descuento aplicado es de:" + costoPlanilla
+16.De lo contrario
+17.		Si edad < 65 entonces
+18.		<<"El valor a cancelar es de:" + costoPlanilla
+19.FinSi
+20.Fin 

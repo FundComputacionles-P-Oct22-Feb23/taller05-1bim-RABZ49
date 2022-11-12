@@ -1,0 +1,17 @@
+1.Inicio
+2.precioUnitario,d[0-n]
+3.cantidad,i[0-n]
+4.total,d[0-n]
+5.<<"ingresar precio unitario:"
+6.>>precioUnitario
+7.<<"ingresar número de unidades:"
+8.>>cantidad
+9.total<-- precioUnitario * cantidad
+10.si cantidad > 50 entoces
+11.		total<-- (total * 0.15) - total * -1
+12.		<<"El valor a pagar esde:" + total
+13.De lo contrario 
+14.		si cantidad < 50 entoces
+15.		<<"El valor a pagar esde:" + total
+16.FinSi
+17.Fin

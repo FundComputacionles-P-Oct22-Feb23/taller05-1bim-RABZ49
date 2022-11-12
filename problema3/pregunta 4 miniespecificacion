@@ -1,0 +1,28 @@
+1.Inicio
+2.numerodeDias,1[0-n]
+3.precioHabitacion,d[0-n]
+4.total,d[0-n]
+5.total1,d[0-n]
+6.total2,d[0-n]
+7.total3,d[0-n]
+8.<<"Ingresar el número de dias de hospedaje:"
+9.>>numerodeDias
+10.<<"Ingresar el precio de la habitacion:"
+11.>>precioHabitacion
+12.total<-- numerodeDias * precioHabitacion
+13.si numerodeDias > 5 and <= 10 entonces
+14.	total3<-- (total * 0.10) - total * -1
+15.	<<"El total a pagar es de:"+ total3
+16.De lo contrario 
+17.	si numerodeDias > 10 and <= 15entonces
+18.	total2<-- (total * 0.15) - total * -1
+19.	<<"El total a pagar es de:"+ total2
+20.De lo contrario 
+21.	si numerodeDias > 15 entonces
+22.	total1<-- (total * 0.20) - total * -1
+23.	<<"El total a pagar es de:"+ total1
+24.De lo contrario 
+25.	si numerodeDias < 5 entonces
+26.	<<"El total a pagar es de:"+ total
+27.Finsi
+28.Fin
